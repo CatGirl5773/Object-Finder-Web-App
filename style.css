@@ -1,0 +1,50 @@
+body {
+    background-size: cover;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.heading {
+    width: 100%;
+    font-size: 30px;
+    margin: 0px;
+}
+
+#note {
+    font-size: 18px;
+}
+
+canvas {
+    border: 5px solid darkorange;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px orangered;
+    animation: border 2s alternate infinite;
+}
+
+@keyframes border {
+    from {
+        border: 5px solid darkorange;
+        box-shadow: 5px 5px 5px orangered;
+    }
+
+    to {
+        border: 5px solid lightsalmon;
+        box-shadow: 5px 5px 5px darksalmon;
+    }
+}
+
+#start,
+#status,
+#object_found {
+    font-size: 18px;
+}
+
+#object_found {
+    margin-left: 5%;
+}
+
+hr {
+    color: grey;
+    background-color: grey;
+    margin-bottom: 0px;
+}
